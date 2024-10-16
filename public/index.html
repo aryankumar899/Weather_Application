@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div
+        class=" animation container mt-8  ml-60 relative left-16 border-2 w-1/2 h-96 bg-gradient-to-r from-purple-600 via-blue-400 to-green-400 rounded-lg">
+        <div class="flex justify-between items-center">
+            <input type="text" placeholder="Enter City Name . Example : New York" class=" searchBar m-6 text-xl h-8 w-full rounded-xl p-4 outline-none">
+            <img class="w-10 h-8 bg-white relative right-10 rounded-xl cursor-pointer button"
+                src="https://www.freeiconspng.com/uploads/search-icon-png-8.png " alt="">
+        </div>
+        <div class="flex justify-start items-center">
+            <img class=" w-44"
+                src="https://static.vecteezy.com/system/resources/previews/012/066/505/original/sunny-and-rainy-day-weather-forecast-icon-meteorological-sign-3d-render-png.png"
+                alt="">
+            <h1 class="temp ml-20 text-7xl text-white relative bottom-14">27°C </h1>
+            <p class="text-white text-4xl relative right-32 mt-16 city">Ranchi</p>
+        </div>
+        <hr class="h-1">
+        <div class="flex justify-between items-center">
+            <div class="flex justify-center items-center">
+                <img class="w-28 opacity-80" src="humidity.png " alt="">
+                <div class="flex justify-start items-center relative bottom-4">
+                    <h3 class=" humidity text-3xl text-white ml-14">84%</h3>
+
+                    <p class="mt-20 text-2xl text-white relative right-20 "> Humidity</p>
+                </div>
+
+            </div>
+            <div class="flex justify-center items-center">
+                <img src="wind.png " class="w-24 opacity-80 relative right-4" alt="">
+                <div class="flex justify-start items-center relative bottom-4">
+
+                    <h3 class="speed text-xl text-white">11.3km/h</h3>
+                    <p class="mt-20 text-xl text-white relative right-20">Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
